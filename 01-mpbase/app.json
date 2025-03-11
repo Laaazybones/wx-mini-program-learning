@@ -14,6 +14,26 @@
     "enablePullDownRefresh": true,
     "backgroundTextStyle": "dark"
   },
+  "tabBar": {
+    "selectedColor": "#f3514f",
+    "color": "#666",
+    "borderStyle": "black",
+    "position": "bottom",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "/assets/tab-bar/首页-置灰.png",
+        "selectedIconPath": "/assets/tab-bar/首页-置灰 (红色).png"
+      },
+      {
+        "pagePath": "pages/list/list",
+        "text": "菜单",
+        "iconPath": "/assets/tab-bar/菜单.png",
+        "selectedIconPath": "/assets/tab-bar/菜单 (红色).png"
+      }
+    ]
+  },
   "style": "v2",
   "sitemapLocation": "sitemap.json",
   "lazyCodeLoading": "requiredComponents"
