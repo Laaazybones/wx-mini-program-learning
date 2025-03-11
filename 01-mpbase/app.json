@@ -1,0 +1,20 @@
+{
+  "entryPagePath": "pages/index/index",
+  "pages": [
+    "pages/index/index",
+    "pages/list/list",
+    "pages/cate/cate",
+    "pages/profile/profile",
+    "pages/cart/cart"
+  ],
+  "window": {
+    "navigationBarTitleText": "Howsco的开发岛",
+    "navigationBarBackgroundColor": "#f3514f",
+    "backgroundColor": "#efefef",
+    "enablePullDownRefresh": true,
+    "backgroundTextStyle": "dark"
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json",
+  "lazyCodeLoading": "requiredComponents"
+}
