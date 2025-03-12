@@ -1,7 +1,39 @@
-<!--index.wxml-->
-<navigation-bar title="Weixin" back="{{false}}" color="black" background="#FFF"></navigation-bar>
-<scroll-view class="scrollarea" scroll-y type="list">
-  <view class="container">
-    Weixin
-  </view>
-</scroll-view>
+
+<!-- 轮播图区域 -->
+<view class="swiperStyle">
+<!-- autoplay="true" 为true时可以省略值不写-->
+<!-- circular 循环轮播 -->
+<!-- interval 自动切换时间 -->
+<!-- indicator-dots 选点 -->
+  <swiper 
+    autoplay
+    circular
+    interval="2000"
+    indicator-dots
+    indicator-color="#fff"
+    indicator-active-color="#f3514f"
+  >
+    <swiper-item>
+      <image src="/assets/banner/banner-1.jpg" mode="aspectFit"/>
+    </swiper-item>
+    <swiper-item>
+      <image src="/assets/banner/banner-2.jpg" mode="aspectFit"/>
+    </swiper-item>
+    <swiper-item>
+      <image src="/assets/banner/banner-3.jpg" mode="aspectFit"/>
+    </swiper-item>
+  </swiper>
+</view>
+
+<!-- 公司信息 -->
+<view class="info"></view>
+
+<!-- 商品导航 -->
+<view class="goods-nav"></view>
+
+<!-- 推荐商品 -->
+<view class="goods-hot"></view>
+
+<!-- mode: 图片裁切或缩放 -->
+<!-- show-menu-by-longpress: 长按展示菜单，可以进行转发、收藏、保存等 -->
+<!-- <image src="/assets/banner/banner-1.jpg" mode="aspectFit" show-menu-by-longpress lazy-load/> -->

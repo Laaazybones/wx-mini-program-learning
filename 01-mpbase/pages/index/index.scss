@@ -1,0 +1,27 @@
+page {
+  background-color: #efefef;
+  height: 100vh;
+}
+
+.swiperStyle {
+  swiper {
+    height: 360rpx;
+    // background-color: skyblue;
+    swiper-item {
+
+      image {
+        height: 100%;
+        width: 100%;
+      }
+
+      // & 在 Sass中代表的是引用父选择器，下面写法等于 swiper-item:first-child
+      // &:first-child {
+      //   background-color: lightgoldenrodyellow;
+      // }
+  
+      // &:last-child {
+      //   background-color: lightgreen;
+      // }
+    }
+  }
+}
