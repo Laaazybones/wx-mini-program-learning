@@ -29,7 +29,28 @@
 <view class="info"></view>
 
 <!-- 商品导航 -->
-<view class="goods-nav"></view>
+<view class="goods-nav">
+  <view>
+    <image src="/assets/category/cate.png" mode="aspectFit"/>
+    <text>面包蛋糕</text>
+  </view>
+  <view>
+    <image src="/assets/category/cate.png" mode="aspectFit"/>
+    <text>面包蛋糕</text>
+  </view>
+  <view>
+    <image src="/assets/category/cate.png" mode="aspectFit"/>
+    <text>面包蛋糕</text>
+  </view>
+  <view>
+    <image src="/assets/category/cate.png" mode="aspectFit"/>
+    <text>面包蛋糕</text>
+  </view>
+  <view>
+    <image src="/assets/category/cate.png" mode="aspectFit"/>
+    <text>面包蛋糕</text>
+  </view>
+</view>
 
 <!-- 推荐商品 -->
 <view class="goods-hot"></view>
