@@ -26,29 +26,44 @@
 </view>
 
 <!-- 公司信息 -->
-<view class="info"></view>
+<view class="info">
+  <text>同城配送</text>
+  <text>行业龙头</text>
+  <text>半小时送达</text>
+  <text>100% 好评</text>
+</view>
 
 <!-- 商品导航 -->
 <view class="goods-nav">
   <view>
-    <image src="/assets/category/cate.png" mode="aspectFit"/>
-    <text>面包蛋糕</text>
+    <navigator url="/pages/list/list">
+      <image src="/assets/category/cate.png" mode="aspectFit"/>
+      <text>面包蛋糕</text>
+    </navigator>
   </view>
   <view>
-    <image src="/assets/category/cate.png" mode="aspectFit"/>
-    <text>面包蛋糕</text>
+    <navigator url="/pages/list/list">
+      <image src="/assets/category/cate.png" mode="aspectFit"/>
+      <text>面包蛋糕</text>
+    </navigator>
   </view>
   <view>
-    <image src="/assets/category/cate.png" mode="aspectFit"/>
-    <text>面包蛋糕</text>
+    <navigator url="/pages/list/list">
+      <image src="/assets/category/cate.png" mode="aspectFit"/>
+      <text>面包蛋糕</text>
+    </navigator>
   </view>
   <view>
-    <image src="/assets/category/cate.png" mode="aspectFit"/>
-    <text>面包蛋糕</text>
+    <navigator url="/pages/list/list">
+      <image src="/assets/category/cate.png" mode="aspectFit"/>
+      <text>面包蛋糕</text>
+    </navigator>
   </view>
   <view>
-    <image src="/assets/category/cate.png" mode="aspectFit"/>
-    <text>面包蛋糕</text>
+    <navigator url="/pages/list/list">
+      <image src="/assets/category/cate.png" mode="aspectFit"/>
+      <text>面包蛋糕</text>
+    </navigator>
   </view>
 </view>
 
@@ -58,3 +73,29 @@
 <!-- mode: 图片裁切或缩放 -->
 <!-- show-menu-by-longpress: 长按展示菜单，可以进行转发、收藏、保存等 -->
 <!-- <image src="/assets/banner/banner-1.jpg" mode="aspectFit" show-menu-by-longpress lazy-load/> -->
+
+<!-- user-select: 使用户可以长按 -->
+<!-- space：可以输入连续空格 -->
+<!-- <text user-select space="nbsp">公     司信息</text> -->
+
+<!-- 注意：url书写时需要在最前面加一个 / ，否则跳转不成功 -->
+<navigator url="/pages/list/list?id=10&num=hua">跳转到商品列表</navigator>
+<navigator url="/pages/cate/cate?id=10&num=hua" open-type="switchTab">跳转到菜单列表</navigator>
+
+<!-- open-type: 跳转属性 -->
+<!-- navigate：只能跳转到【非tabBar】页面，保留上一级页面，跳转后可以返回上一级页面 -->
+<!-- <navigator url="/pages/list/list" open-type="navigate">跳转到商品列表</navigator>
+<navigator url="/pages/cate/cate" open-type="navigate">跳转到菜单列表</navigator> -->
+
+<!-- redirect：只能跳转到【非tabBar】页面，关闭上一级页面，跳转后只能返回小程序首页 -->
+<!-- <navigator url="/pages/list/list" open-type="redirect">跳转到商品列表</navigator>
+<navigator url="/pages/cate/cate" open-type="redirect">跳转到菜单列表</navigator> -->
+
+<!-- switchTab：只能跳转到【tabBar】页面，关闭其他所有非tabBar页面 -->
+<!-- <navigator url="/pages/list/list" open-type="switchTab">跳转到商品列表</navigator>
+<navigator url="/pages/cate/cate" open-type="switchTab">跳转到菜单列表</navigator> -->
+
+<!-- reLaunch：关闭所有页面，然后跳转到指定页面 -->
+<!-- <navigator url="/pages/list/list" open-type="reLaunch">跳转到商品列表</navigator>
+<navigator url="/pages/cate/cate" open-type="reLaunch">跳转到菜单列表</navigator> -->
+

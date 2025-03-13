@@ -1,9 +1,26 @@
 page {
   background-color: #efefef;
   height: 100vh;
+
+  padding: 16rpx;
+  box-sizing: border-box;
+
+  display: flex;
+  flex-direction: column;
+
+
+  // 从第二个组件开始
+  > view {
+    &:nth-child(n + 2) {
+      margin-top: 16rpx;
+    }
+  }
 }
 
 .swiperStyle {
+  border-radius: 10rpx;
+  overflow: hidden;
+
   swiper {
     height: 360rpx;
     // background-color: skyblue;
@@ -12,6 +29,7 @@ page {
       image {
         height: 100%;
         width: 100%;
+        border-radius: 10rpx;
       }
 
       // & 在 Sass中代表的是引用父选择器，下面写法等于 swiper-item:first-child
@@ -33,7 +51,7 @@ page {
   background-color: #fff;
   padding: 20rpx 16rpx;
   border-radius: 10rpx;
-  font-size: 24rpx;
+  font-size: 16rpx;
 }
 
 // 商品导航区域
@@ -45,9 +63,11 @@ page {
   border-radius: 10rpx;
 
   view {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    navigator {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
 
     image {
       width: 100rpx;
@@ -59,4 +79,9 @@ page {
       margin-top: 12rpx;
     }
   }
+}
+
+text {
+  color: black;
+  font-size: 24rpx;
 }
