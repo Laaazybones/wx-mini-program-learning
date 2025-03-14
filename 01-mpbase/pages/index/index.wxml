@@ -115,6 +115,9 @@
 
 </view>
 
+<!-- 以下是知识点讲解笔记 -->
+<view class="bg-image"></view>
+
 <!-- 水平滚动 -->
 <!-- <scroll-view class="scroll-x-style" scroll-x>
   <view>1</view>
