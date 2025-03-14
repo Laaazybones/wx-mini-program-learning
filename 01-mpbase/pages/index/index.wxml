@@ -27,10 +27,10 @@
 
 <!-- 公司信息 -->
 <view class="info">
-  <text>同城配送</text>
-  <text>行业龙头</text>
-  <text>半小时送达</text>
-  <text>100% 好评</text>
+  <text><text class="iconfont icon-ps"></text>同城配送</text>
+  <text><text class="iconfont icon-ts"></text>行业龙头</text>
+  <text><text class="iconfont icon-sj"></text>半小时送达</text>
+  <text><text class="iconfont icon-hp"></text>100% 好评</text>
 </view>
 
 <!-- 商品导航 -->
@@ -68,7 +68,66 @@
 </view>
 
 <!-- 推荐商品 -->
-<view class="goods-hot"></view>
+<view class="goods-hot">
+  <scroll-view class="scroll-x" scroll-x>
+    
+    <view>
+      <view class="goods-item">
+        <image src="/assets/floor/1.jpg" mode=""/>
+        <text>香软面包</text>
+        <text>10</text>
+      </view>
+    </view>
+
+    <view>
+      <view class="goods-item">
+        <image src="/assets/floor/2.jpg" mode=""/>
+        <text>香软面包</text>
+        <text>12</text>
+      </view>
+    </view>
+
+    <view>
+      <view class="goods-item">
+        <image src="/assets/floor/3.jpg" mode=""/>
+        <text>香软面包</text>
+        <text>13</text>
+      </view>
+    </view>
+
+    <view>
+      <view class="goods-item">
+        <image src="/assets/floor/4.jpg" mode=""/>
+        <text>香软面包</text>
+        <text>14</text>
+      </view>
+    </view> 
+
+    <view>
+      <view class="goods-item">
+        <image src="/assets/floor/5.jpg" mode=""/>
+        <text>香软面包</text>
+        <text>15</text>
+      </view>
+    </view>
+
+  </scroll-view>
+
+</view>
+
+<!-- 水平滚动 -->
+<!-- <scroll-view class="scroll-x-style" scroll-x>
+  <view>1</view>
+  <view>2</view>
+  <view>3</view>
+</scroll-view> -->
+
+<!-- 垂直滚动 -->
+<!-- <scroll-view class="scroll-y-style" scroll-y>
+  <view>1</view>
+  <view>2</view>
+  <view>3</view>
+</scroll-view> -->
 
 <!-- mode: 图片裁切或缩放 -->
 <!-- show-menu-by-longpress: 长按展示菜单，可以进行转发、收藏、保存等 -->
@@ -79,8 +138,8 @@
 <!-- <text user-select space="nbsp">公     司信息</text> -->
 
 <!-- 注意：url书写时需要在最前面加一个 / ，否则跳转不成功 -->
-<navigator url="/pages/list/list?id=10&num=hua">跳转到商品列表</navigator>
-<navigator url="/pages/cate/cate?id=10&num=hua" open-type="switchTab">跳转到菜单列表</navigator>
+<!-- <navigator url="/pages/list/list?id=10&num=hua">跳转到商品列表</navigator>
+<navigator url="/pages/cate/cate?id=10&num=hua" open-type="switchTab">跳转到菜单列表</navigator> -->
 
 <!-- open-type: 跳转属性 -->
 <!-- navigate：只能跳转到【非tabBar】页面，保留上一级页面，跳转后可以返回上一级页面 -->

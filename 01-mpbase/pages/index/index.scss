@@ -52,6 +52,10 @@ page {
   padding: 20rpx 16rpx;
   border-radius: 10rpx;
   font-size: 16rpx;
+
+  .iconfont {
+    font-size: 24rpx;
+  }
 }
 
 // 商品导航区域
@@ -81,7 +85,87 @@ page {
   }
 }
 
+// 推荐商品区
+.goods-hot {
+  background-color: #fff;
+  padding: 16rpx;
+  border-radius: 10rpx;
+  font-size: 24rpx;
+
+  .scroll-x {
+    width: 100%;
+    white-space: nowrap;
+
+    view {
+      display: inline-block;
+      width: 320rpx;
+      height: 420rpx;
+      margin-right: 16rpx;
+
+      .goods-item {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+
+        text {
+          &:nth-of-type(1) {
+            font-weight: bold;
+          }
+        }
+      }
+
+      image {
+        width: 100%;
+        height: 300rpx;
+      }
+
+      &:last-child {
+        margin-right: 0;
+      }
+    }
+  }
+}
+
 text {
   color: black;
   font-size: 24rpx;
 }
+
+.scroll-x-style {
+  width: 100%;
+  white-space: nowrap;
+  background-color: skyblue;
+
+  view {
+    display: inline-block;
+    width: 300rpx;
+    height: 80rpx;
+
+    &:last-child {
+      background-color: lightcoral;
+    }
+
+    &:first-child {
+      background-color: lightgreen;
+    }
+  }
+}
+
+.scroll-y-style {
+  height: 400rpx;
+  margin-top: 10rpx;
+  background-color: skyblue;
+
+  view {
+    height: 400rpx;
+
+    &:last-child {
+      background-color: lightcoral;
+    }
+
+    &:first-child {
+      background-color: lightgreen;
+    }
+  }
+}
+
