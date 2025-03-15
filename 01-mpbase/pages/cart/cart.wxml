@@ -28,3 +28,19 @@
 
 <!-- 在双大括号内部，只能写表达式，不能写语句，不能调用js方法(虽然不报错，但是也无效果) -->
 <view>{{ name.toUpperCase() }}</view>
+
+
+<view>修改并渲染数据：{{ number }}</view>
+<button bindtap="updateNum">点击修改数据</button>
+
+<view class="line"></view>
+
+<view>{{ userInfo.name }}</view>
+<view>{{ userInfo.age }}</view>
+<button bindtap="updateUserInfo">修改userInfo数据</button>
+
+<view class="line"></view>
+<view wx:for="{{ list }}" wx:key="index">{{ item }}</view>
+
+<view>{{ list2[0].name }}</view>
+<button type="primary" bindtap="updateList">修改数组类型数据</button>
