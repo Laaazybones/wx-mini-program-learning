@@ -1,2 +1,15 @@
 <!--pages/profile/profile.wxml-->
-<text>pages/profile/profile.wxml</text>
+
+<!-- 数组：item：每一项， index：下标 -->
+<!-- <view wx:for="{{ numList }}">{{ item }} - {{ index }}</view> -->
+<!-- 对象：item：对象属性的值， index：对象属性 -->
+<!-- <view wx:for="{{ obj }}">{{ item }} - {{ index }}</view> -->
+
+<!-- wx:key 作用是提升性能。他的值直接写，不要用双大括号包裹 -->
+<!-- wx:key要求： 1. 字符串，是遍历的数组中 item 的某个属性，该属性是列表中的唯一字符串或数字，不能进行动态修改-->
+<!-- 2. 使用保留关键字 *this，*this代表的是item本身，item本身是唯一的字符串或数字 -->
+<view wx:for="{{ numList }}" wx:key="*this">{{ item }}</view>
+
+<!-- <view wx:for="{{ fruitList }}" wx:key="id">{{ item.name }}</view> -->
+<view wx:for="{{ fruitList }}" wx:key="index">{{ item.name }}</view>
+<!-- index表示item的下标值 -->
