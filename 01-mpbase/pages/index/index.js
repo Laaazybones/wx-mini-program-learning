@@ -8,5 +8,12 @@ Page({
 
   getInputVal(event) {
     console.log(event.detail.value)
+  },
+
+  parentHandler() {
+    console.log('这是父组件绑定的事件')
+  },
+  btnHandler() {
+    console.log('这是子组件绑定的事件')
   }
 })

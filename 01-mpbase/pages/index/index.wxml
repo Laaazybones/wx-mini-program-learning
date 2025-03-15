@@ -127,6 +127,17 @@
 <!-- 小程序中输入框默认没有框线，需要在app.scss文件中定义框线 -->
 <input type="text" bindinput="getInputVal"/>
 
+<view class="line"></view>
+
+<!-- 事件冒泡 -->
+<!-- <view class="catch" bind:tap="parentHandler">
+  <button bind:tap="btnHandler">按钮</button>
+</view> -->
+<!-- 使用catch而不是bind来进行组件事件绑定，可以避免事件冒泡 -->
+<view class="catch" bind:tap="parentHandler">
+  <button catch:tap="btnHandler">按钮</button>
+</view>
+
 <!-- 水平滚动 -->
 <!-- <scroll-view class="scroll-x-style" scroll-x>
   <view>1</view>
