@@ -26,7 +26,9 @@ Page({
       test: 222
     },
     list: [1, 2, 3],
-    list2: [{'id': 1, 'name':'jerry'}]
+    list2: [{'id': 1, 'name':'jerry'}],
+    value: 123,
+    isChecked: false
   },
 
   updateNum() {

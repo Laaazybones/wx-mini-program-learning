@@ -44,3 +44,16 @@
 
 <view>{{ list2[0].name }}</view>
 <button type="primary" bindtap="updateList">修改数组类型数据</button>
+
+<view class="line"></view>
+<!-- 单向数据绑定 -->
+<!-- <input type="text" value="{{ value }}"/> -->
+<!-- 双向数据绑定 -->
+<!-- <input type="text" model:value="{{ value }}"/> -->
+<!-- <checkbox model:checked="{{ isChecked }}"/>是否同意 -->
+
+<!-- 注意事项 -->
+<!-- 1. 属性值只能是单一字段的绑定，不能拼接，例如： -->
+<!-- <input type="text" model:value="数据是{{ value }}"/> -->
+<!-- 2. 属性值不能写数据路径，即不支持对象和数组 -->
+<input type="text" model:value="{{ obj.num }}"/>
