@@ -3,6 +3,28 @@
 <!-- rpx 是微信小程序特制的单位，总宽规定为750rpx，根据不同机型修改组件的大小 -->
 <!-- <view class="demo">测试rpx</view> -->
 
-<view bindtap="parentHandler" mark:parentid="1" mark:parentname="jerry">
+<!-- <view bindtap="parentHandler" mark:parentid="1" mark:parentname="jerry">
   <button mark:id="1" mark:name="jerry">按钮</button>
-</view>
+</view> -->
+
+<!-- 引用数据需要使用双括号 -->
+<view>{{ name }}</view>
+<view>{{ age }}</view>
+<view>{{ obj.num }}</view>
+
+<!-- 绑定属性值，如果需要一个动态的变量作为id，也需要使用双括号引用 -->
+<view id="{{ id }}">绑定属性值</view>
+
+<!-- 如果属性值为布尔值，也要使用双括号包裹才能正常使用 -->
+<checkbox checked="{{ false }}"/>
+
+<!-- 算数运算 -->
+<view>{{ id-1 }}</view>
+<view>{{ id+1 }}</view>
+<!-- 三元运算 -->
+<view>{{ id > 2 ? 'true':'false' }}</view>
+<!-- 逻辑判断 -->
+<view>{{ id === 2 }}</view>
+
+<!-- 在双大括号内部，只能写表达式，不能写语句，不能调用js方法(虽然不报错，但是也无效果) -->
+<view>{{ name.toUpperCase() }}</view>
