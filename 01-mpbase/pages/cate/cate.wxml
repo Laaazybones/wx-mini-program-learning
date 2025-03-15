@@ -1,2 +1,10 @@
 <!--pages/cate/cate.wxml-->
-<text>pages/cate/cate.wxml</text>
+<!-- <text>pages/cate/cate.wxml</text> -->
+
+<!-- <view>
+  <button bind:tap="btnHandler" data-id="1" data-name="jerry">按钮</button>
+</view> -->
+
+<view bind:tap="parentHandler" data-parent-id="1" data-parentName="jerry">
+  <button data-id="1" data-name="jerry">按钮</button>
+</view>
