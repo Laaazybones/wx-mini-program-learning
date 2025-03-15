@@ -1,4 +1,8 @@
 <!--pages/cart/cart.wxml-->
 
 <!-- rpx 是微信小程序特制的单位，总宽规定为750rpx，根据不同机型修改组件的大小 -->
-<view class="demo">测试rpx</view>
+<!-- <view class="demo">测试rpx</view> -->
+
+<view bindtap="parentHandler" mark:parentid="1" mark:parentname="jerry">
+  <button mark:id="1" mark:name="jerry">按钮</button>
+</view>

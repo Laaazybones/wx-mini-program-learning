@@ -1,66 +1,17 @@
 // pages/cart/cart.js
 Page({
-
-  /**
-   * 页面的初始数据
-   */
-  data: {
-
+  // button绑定的事件函数
+  btnHandler(event) {
+    console.log(event)
   },
 
-  /**
-   * 生命周期函数--监听页面加载
-   */
-  onLoad(options) {
-
-  },
-
-  /**
-   * 生命周期函数--监听页面初次渲染完成
-   */
-  onReady() {
-
-  },
-
-  /**
-   * 生命周期函数--监听页面显示
-   */
-  onShow() {
-
-  },
-
-  /**
-   * 生命周期函数--监听页面隐藏
-   */
-  onHide() {
-
-  },
-
-  /**
-   * 生命周期函数--监听页面卸载
-   */
-  onUnload() {
-
-  },
-
-  /**
-   * 页面相关事件处理函数--监听用户下拉动作
-   */
-  onPullDownRefresh() {
-
-  },
-
-  /**
-   * 页面上拉触底事件的处理函数
-   */
-  onReachBottom() {
-
-  },
-
-  /**
-   * 用户点击右上角分享
-   */
-  onShareAppMessage() {
-
+  // view绑定的事件函数
+  parentHandler(event) {
+    // 点击按钮时，事件对象上的mark获取的是 事件触发节点 和其父节点 身上所有的mark数据
+    // 点击蓝色区域时，事件对象上的mark获取的是 view 身上绑定的数据
+    console.log(event)
   }
 })
+
+
+// mark 和 data- 的区别在于：mark可以获得事件触发者及其父组件所有组件的mark属性值，而data-只能获取事件触发者（target）或事件绑定者（currentTarget）单个组件绑定的数据
