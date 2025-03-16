@@ -10,6 +10,14 @@ Page({
     obj: {
       name: 'tom',
       age: 18
-    }
+    },
+    num: 1,
+    isFlag: false
+  },
+
+  updateNum() {
+    this.setData({
+      num: this.data.num + 1
+    })
   }
 })
