@@ -13,3 +13,33 @@
 <!-- <view wx:for="{{ fruitList }}" wx:key="id">{{ item.name }}</view> -->
 <view wx:for="{{ fruitList }}" wx:key="index">{{ item.name }}</view>
 <!-- index表示item的下标值 -->
+
+<view class="line"></view>
+<!-- 如果需要修改默认的变量名，需要使用 wx:for-item 属性 -->
+<!-- 如果需要修改默认的下标变量名，需要使用 wx:for-index 属性 -->
+<!-- 两个属性需要和 wx:for 写在同一个组件上 -->
+<!-- 在重命名、修改以后，需要使用最新的变量名 -->
+<!-- 数组 -->
+<view wx:for="{{ fruitList }}" wx:key="id" wx:for-item="fruitItem" wx:for-index="i">
+  <!-- {{ item.name }} -->
+  {{ fruitItem.name }}
+</view>
+<!-- 对象 -->
+<view wx:for="{{ obj }}" wx:key="index" wx:for-item="value" wx:for-index="key">
+  <!-- {{ item }} - {{ index }} -->
+  {{ value }} - {{ key }}
+</view>
+
+<!-- 模块化：法一 -->
+<!-- <view wx:for="{{ fruitList }}" wx:key="id" wx:for-item="fruitItem" wx:for-index="i">
+  <view>名称：{{ fruitItem.name }}</view>
+  <view>价格：{{ fruitItem.price }}</view>
+</view> -->
+<!-- 模块化：法二 -->
+<!-- block 不是一个组件，只是渲染元素 -->
+<!-- 也就是只是用于包装元素，可以组织代码结构，支持列表渲染 -->
+<!-- block 不会在页面中做任何渲染，只接收控制属性 -->
+<block wx:for="{{ fruitList }}" wx:key="id" wx:for-item="fruitItem" wx:for-index="i">
+  <view>名称：{{ fruitItem.name }}</view>
+  <view>价格：{{ fruitItem.price }}</view>
+</block>

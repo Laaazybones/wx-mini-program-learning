@@ -3,9 +3,9 @@ Page({
   data: {
     numList: [1, 2, 3],
     fruitList: [
-      { id: 1, name: '苹果'},
-      { id: 2, name: '香蕉' },
-      { id: 3, name: '西瓜' }
+      { id: 1, name: '苹果', price: 66 },
+      { id: 2, name: '香蕉', price: 77 },
+      { id: 3, name: '西瓜', price: 88 }
     ],
     obj: {
       name: 'tom',
