@@ -138,6 +138,14 @@
   <button catch:tap="btnHandler">按钮</button>
 </view>
 
+
+<view class="line"></view>
+
+<!-- 保留当前页面，跳转到下一个页面 -->
+<navigator url="/pages/list/list" open-type="navigate">点击跳转到list页面-navigate</navigator>
+<!-- 销毁当前页面，跳转到下一个页面 -->
+<navigator url="/pages/list/list" open-type="redirect">点击跳转到list页面-redirect</navigator>
+
 <!-- 水平滚动 -->
 <!-- <scroll-view class="scroll-x-style" scroll-x>
   <view>1</view>
