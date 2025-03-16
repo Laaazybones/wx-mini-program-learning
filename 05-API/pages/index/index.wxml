@@ -1,0 +1,1 @@
+<button type="warn" bindtap="getData">点击获取数据</button>
