@@ -1,4 +1,9 @@
 <!--index.wxml-->
+
+<!-- <custom-swiper /> -->
+
 <custom-checkbox />
 
-<custom-swiper />
+<view class="line"></view>
+
+<custom-checkbox />

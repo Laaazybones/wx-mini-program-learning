@@ -1,10 +1,12 @@
 /**index.wxss**/
 page {
-  height: 100vh;
-  display: flex;
-  flex-direction: column;
+  padding: 50rpx;
+  box-sizing: border-box;
 }
-.scrollarea {
-  flex: 1;
-  overflow-y: hidden;
+
+.line {
+  height: 10rpx;
+  background-color: skyblue;
+  margin-top: 10rpx;
+  margin-bottom: 10rpx;
 }
