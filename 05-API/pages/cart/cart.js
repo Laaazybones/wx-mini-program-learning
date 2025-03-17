@@ -1,2 +1,6 @@
 // pages/cart/cart.js
-Page({})
+Page({
+
+  navigateBack() {},
+
+})
