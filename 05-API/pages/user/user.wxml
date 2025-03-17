@@ -1,0 +1,2 @@
+<!--pages/user/user.wxml-->
+<button plain type="warn" bindtap="navigateBack">navigateBack</button>

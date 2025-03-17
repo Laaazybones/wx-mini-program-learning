@@ -1,1 +1,3 @@
-<button type="warn" bindtap="getData">点击获取数据</button>
+<!-- <button type="warn" bindtap="getData">点击获取数据</button> -->
+
+<button type="primary" bind:tap="delGoods2">点击删除商品</button>
