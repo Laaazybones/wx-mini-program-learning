@@ -1,0 +1,4 @@
+<button type="primary" plain size="mini" bind:tap="setStorage">添加</button>
+<button type="warn" plain size="mini" bind:tap="getStorage">获取</button>
+<button type="primary" plain size="mini" bind:tap="removeStorage">删除</button>
+<button type="warn" plain size="mini" bind:tap="clearStorage">清空</button>
