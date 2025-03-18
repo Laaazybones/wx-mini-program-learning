@@ -4,9 +4,9 @@
 <view class="custom-checkbox-container">
   <view class="custom-checkbox-box {{ position === 'right' ? 'right' : 'left' }}">
     <checkbox class="custom-checkbox" checked="{{ isChecked }}" bind:tap="updateChecked"/>
-
-    <view>
+    <text wx:if="{{ label !== '' }}">
       {{ label }}
-    </view>
+    </text>
+    <slot wx:else/>
   </view>
 </view>

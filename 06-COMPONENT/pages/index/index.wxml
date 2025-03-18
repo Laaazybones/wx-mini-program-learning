@@ -4,8 +4,12 @@
 
 <!-- label 文本显示的内容 -->
 <!-- position 控制文本显示的位置 -->
-<custom-checkbox label="我已阅读并同意 用户协议 和 隐私协议" position="right"/>
+<custom-checkbox label="我已阅读并同意 用户协议 和 隐私协议" position="right">
+  我是自定义组件内容 - 11
+</custom-checkbox>
 
 <view class="line"></view>
 
-<custom-checkbox label="匿名提交" position="left"/>
+<custom-checkbox label="匿名提交" position="left">
+  我是自定义组件内容 - 22
+</custom-checkbox>

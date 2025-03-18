@@ -3,5 +3,6 @@
   "projectname": "06-COMPONENT",
   "setting": {
     "compileHotReLoad": true
-  }
+  },
+  "libVersion": "3.7.10"
 }

@@ -57,6 +57,7 @@
   "sitemapLocation": "sitemap.json",
   "lazyCodeLoading": "requiredComponents",
   "usingComponents": {
-    "custom-checkbox": "/components/custom-checkbox/custom-checkbox"
+    "custom-checkbox": "/components/custom-checkbox/custom-checkbox",
+    "custom01": "/components/custom01/custom01"
   }
 }

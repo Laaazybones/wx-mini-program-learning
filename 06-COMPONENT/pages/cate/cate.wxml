@@ -1,2 +1,10 @@
 <!--pages/cate/cate.wxml-->
-<text>pages/cate/cate.wxml</text>
+<!-- <text>pages/cate/cate.wxml</text> -->
+
+<custom01>
+  <view slot="slot-top">我来组成头部</view>
+<!-- 默认情况下，自定义组件的子节点内容不会进行展示 -->
+<!-- 如果想进行展示，需要在组件模板中定义 slot 节点 -->
+  我是子节点内容
+  <view slot="slot-bottom">我来组成底部</view>  
+</custom01>
