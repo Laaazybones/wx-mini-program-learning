@@ -9,10 +9,15 @@
   <!-- <view slot="slot-bottom">我来组成底部</view>   -->
 <!-- </custom01> -->
 
-<view class="custom-style parent">
+<!-- <view class="custom-style parent">
   <view>
     <custom02/>
     <view class="son test">我是父级页面中的结构</view>
   </view>
   
-</view>
+</view> -->
+
+<custom02/>
+
+<custom03/>
+<view class="test">我是组件使用者中的结构</view>

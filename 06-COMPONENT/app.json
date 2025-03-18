@@ -59,6 +59,7 @@
   "usingComponents": {
     "custom-checkbox": "/components/custom-checkbox/custom-checkbox",
     "custom01": "/components/custom01/custom01",
-    "custom02": "/components/custom02/custom02"
+    "custom02": "/components/custom02/custom02",
+    "custom03": "/components/custom03/custom03"
   }
 }

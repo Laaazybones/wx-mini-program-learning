@@ -4,5 +4,18 @@
   "setting": {
     "compileHotReLoad": true
   },
-  "libVersion": "3.7.10"
+  "libVersion": "3.7.10",
+  "condition": {
+    "miniprogram": {
+      "list": [
+        {
+          "name": "分类页面",
+          "pathName": "pages/cate/cate",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        }
+      ]
+    }
+  }
 }

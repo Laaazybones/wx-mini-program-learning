@@ -1,0 +1,6 @@
+/* components/custom03/custom03.wxss */
+
+.test {
+  color: lightgreen;
+  font-size: 50rpx;
+}

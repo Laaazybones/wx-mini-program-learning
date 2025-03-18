@@ -9,6 +9,10 @@
   color: skyblue;
 } */
 
-.parent .son.test {
+/* .parent .son.test {
+  color: lightcoral;
+} */
+
+.label {
   color: lightcoral;
 }

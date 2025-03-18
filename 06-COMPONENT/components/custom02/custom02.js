@@ -1,7 +1,7 @@
 // components/custom02/custom02.js
 Component({
   options: {
-    styleIsolation: "shared"
+    // styleIsolation: "shared"
   },
   /**
    * 组件的属性列表

@@ -1,4 +1,4 @@
 <!--components/custom02/custom02.wxml-->
 <view id="content" class="content son">
-  <text class="item">自定义组件样式测试</text>
+  <text class="item test">自定义组件样式测试</text>
 </view>
