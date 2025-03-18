@@ -21,3 +21,5 @@
 
 <custom03/>
 <view class="test">我是组件使用者中的结构</view>
+
+<checkbox/>

@@ -10,3 +10,14 @@ page {
   margin-top: 10rpx;
   margin-bottom: 10rpx;
 }
+
+/* 组件使用者修改默认复选框的样式 */
+.custom .custom-checkbox .wx-checkbox-input {
+  border: 1px solid #369c47 !important;
+  margin-top: -6rpx;
+}
+
+/* 复选框选中时默认的样式 */
+.custom .custom-checkbox .wx-checkbox-input-checked {
+  background-color: #369c47 !important;
+}

@@ -10,6 +10,10 @@
 
 <view class="line"></view>
 
-<custom-checkbox label="匿名提交" position="left">
+<!-- 在外层再嵌套一层view，通过父组件custom样式，实现样式重要性进一步提升 -->
+<view class="custom">
+  <custom-checkbox label="匿名提交" position="left">
   我是自定义组件内容 - 22
-</custom-checkbox>
+  </custom-checkbox>
+</view>
+
