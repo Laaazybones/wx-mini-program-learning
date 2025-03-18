@@ -58,6 +58,7 @@
   "lazyCodeLoading": "requiredComponents",
   "usingComponents": {
     "custom-checkbox": "/components/custom-checkbox/custom-checkbox",
-    "custom01": "/components/custom01/custom01"
+    "custom01": "/components/custom01/custom01",
+    "custom02": "/components/custom02/custom02"
   }
 }

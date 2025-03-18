@@ -1,1 +1,14 @@
 /* pages/cate/cate.wxss */
+
+/* .custom-style {
+  color: skyblue;
+  font-size: 50rpx;
+} */
+
+/* .item {
+  color: skyblue;
+} */
+
+.parent .son.test {
+  color: lightcoral;
+}
