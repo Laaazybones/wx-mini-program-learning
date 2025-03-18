@@ -1,2 +1,1 @@
-<!--pages/cart/cart.wxml-->
-<text class="test">pages/cart/cart.wxml</text>
+<custom04 label="标题"/>
