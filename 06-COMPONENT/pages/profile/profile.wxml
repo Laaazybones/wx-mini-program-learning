@@ -1,2 +1,6 @@
-<!--pages/profile/profile.wxml-->
-<text>pages/profile/profile.wxml</text>
+<!-- pages/profile/profile.wxml
+<text>pages/profile/profile.wxml</text> -->
+
+<custom06 wx:if="{{ num === 1}}"/>
+
+<button type="warn" plain bind:tap="handler">销毁子组件</button>
