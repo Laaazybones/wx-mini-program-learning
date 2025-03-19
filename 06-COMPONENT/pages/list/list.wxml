@@ -1,2 +1,5 @@
 <!--pages/list/list.wxml-->
-<text>pages/list/list.wxml</text>
+<!-- <text>pages/list/list.wxml</text> -->
+
+
+<custom07 />

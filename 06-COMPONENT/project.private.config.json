@@ -9,6 +9,13 @@
     "miniprogram": {
       "list": [
         {
+          "name": "菜单页面",
+          "pathName": "pages/list/list",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
           "name": "我的页面",
           "pathName": "pages/profile/profile",
           "query": "",
