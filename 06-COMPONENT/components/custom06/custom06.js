@@ -25,5 +25,18 @@ Component({
     detached() {
       console.log('组件 detached')
     }
+  },
+
+  // 组件所在页面的生命周期
+  pageLifetimes: {
+    // 监听组件所在页面展示（或后台切前台）状态
+    show() {
+      console.log('组件所在页面被展示')
+    },
+
+    // 监听组件所在页面隐藏（前台切后台、切tabBar）状态
+    hide() {
+      console.log('组件所在页面被隐藏')
+    }
   }
 })
