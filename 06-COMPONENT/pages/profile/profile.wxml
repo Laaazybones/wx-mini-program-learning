@@ -5,4 +5,6 @@
 
 <!-- <button type="warn" plain bind:tap="handler">销毁子组件</button> -->
 
-<navigator url="/pages/detail/detail?id=99&name=jerry">跳转到指定页面</navigator>
+<!-- <navigator url="/pages/detail/detail?id=99&name=jerry">跳转到指定页面</navigator> -->
+
+<custom08/>
