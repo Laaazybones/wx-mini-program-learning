@@ -8,3 +8,7 @@
 <!-- <navigator url="/pages/detail/detail?id=99&name=jerry">跳转到指定页面</navigator> -->
 
 <custom08/>
+
+<view class="line"></view>
+
+<custom09 extend-class="my-class"/>

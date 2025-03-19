@@ -1,0 +1,6 @@
+<!--components/custom09/custom09.wxml-->
+<!-- <text>components/custom09/custom09.wxml</text> -->
+
+<!-- 如果同时存在自定义组件 中 定义的样式，与从组件外部传递过来的样式，样式属性发生重叠 -->
+<!-- 默认情况下会使用组件内部的样式（就近原则），想要继续使用外部组件传递来的样式，需要提升外部组件样式的权重 -->
+<view class="extend-class box">使用自定义组件外部的样式类</view>

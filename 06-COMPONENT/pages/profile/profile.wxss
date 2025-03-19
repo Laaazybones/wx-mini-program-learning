@@ -1,1 +1,12 @@
 /* pages/profile/profile.wxss */
+
+.line {
+  height: 10rpx;
+  width: 100%;
+  background-color: aquamarine;
+  margin-top: 10rpx;
+  margin-bottom: 10rpx;
+}
+.my-class {
+  color: orchid !important;
+}
