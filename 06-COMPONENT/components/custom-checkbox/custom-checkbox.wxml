@@ -3,14 +3,15 @@
 
 <view class="custom-checkbox-container">
   <view class="custom-checkbox-box {{ position === 'right' ? 'right' : 'left' }}">
-    <checkbox class="custom-checkbox" checked="{{ isChecked }}" bind:tap="updateChecked"/>
+    <label class="custom-label">
+      <checkbox class="custom-checkbox" checked="{{ isChecked }}" bind:tap="updateChecked"/>
 
-    <view class="content">
-      <text wx:if="{{ label !== '' }}">
-        {{ label }}
-      </text>
-      <slot wx:else/>
-    </view>
-    
+      <view class="content">
+        <text wx:if="{{ label !== '' }}">
+          {{ label }}
+        </text>
+        <slot wx:else/>
+      </view>
+    </label>
   </view>
 </view>
