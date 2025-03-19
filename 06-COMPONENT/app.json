@@ -6,7 +6,8 @@
     "pages/cate/cate",
     "pages/profile/profile",
     "pages/cart/cart",
-    "pages/user/user"
+    "pages/user/user",
+    "pages/detail/detail"
   ],
   "window": {
     "navigationBarTitleText": "Howsco的开发岛",
