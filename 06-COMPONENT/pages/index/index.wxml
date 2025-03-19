@@ -5,6 +5,8 @@
 <!-- label 文本显示的内容 -->
 <!-- position 控制文本显示的位置 -->
 <custom-checkbox
+  class="childStyle"
+  id="child"
   label="我已阅读并同意 用户协议 和 隐私协议"
   position="right"
   checked="{{ isChecked }}"
@@ -22,3 +24,4 @@
   </custom-checkbox>
 </view>
 
+<button type="primary" plain bindtap="getChildComponentObj">获取子组件实例对象</button>
