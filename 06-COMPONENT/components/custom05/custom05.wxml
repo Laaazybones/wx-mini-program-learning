@@ -1,0 +1,4 @@
+<!--components/custom05/custom05.wxml-->
+<!-- <text>components/custom05/custom05.wxml</text> -->
+
+<button type="primary" plain bind:tap="sendData">向父组件传数据</button>

@@ -1,1 +1,4 @@
-<custom04 label="标题"/>
+<!-- <custom04 label="标题"/> -->
+
+<view>子组件传递给父组件的数据是：{{ cartNum }}</view>
+<custom05 bind:sendDataEvent="getDataFromSon"/>

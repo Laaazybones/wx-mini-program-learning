@@ -5,7 +5,15 @@ Page({
    * 页面的初始数据
    */
   data: {
+    cartNum: 0
+  },
 
+  // 获取从子组件传递过来的数据
+  getDataFromSon(event) {
+    // console.log(event)
+    this.setData({
+      cartNum: event.detail
+    })
   },
 
   /**

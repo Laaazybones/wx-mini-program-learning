@@ -71,6 +71,13 @@ Component({
 
       // 在 JS 中可以访问和获取 properties 中的数据，并且还能对他进行修改，但是一般不建议这么操作，因为会造成数据流的混乱
       // console.log(this.properties.label)
+
+      // 目前复选框组件的状态存储在复选框组件自身，即存储在子组件中
+      // 在实际开发中，组件的使用者，即父组件也需要获取复选框内部的状态
+      // 怎么办呢？
+      // 可以在子组件中声明一个自定义事件
+      // 让父组件进行绑定自定义事件
+      this.triggerEvent('changeChecked', this.data.isChecked)
     }
   }
 })
