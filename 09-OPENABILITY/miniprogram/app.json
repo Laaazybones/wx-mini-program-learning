@@ -1,0 +1,71 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/list/list",
+    "pages/cate/cate",
+    "pages/profile/profile",
+    "pages/cart/cart",
+    "pages/user/user",
+    "pages/detail/detail"
+  ],
+  "window": {
+    "navigationBarTitleText": "Howsco的开发岛",
+    "navigationBarBackgroundColor": "#f3514f",
+    "backgroundColor": "#efefef",
+    "enablePullDownRefresh": false,
+    "backgroundTextStyle": "dark"
+  },
+  "tabBar": {
+    "selectedColor": "#f3514f",
+    "color": "#666",
+    "borderStyle": "black",
+    "position": "bottom",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "/assets/tab-bar/首页-置灰.png",
+        "selectedIconPath": "/assets/tab-bar/首页-置灰 (红色).png"
+      },
+      {
+        "pagePath": "pages/cate/cate",
+        "text": "分类",
+        "iconPath": "/assets/tab-bar/分类.png",
+        "selectedIconPath": "/assets/tab-bar/分类-选中.png"
+      },
+      {
+        "pagePath": "pages/list/list",
+        "text": "菜单",
+        "iconPath": "/assets/tab-bar/菜单.png",
+        "selectedIconPath": "/assets/tab-bar/菜单 (红色).png"
+      },
+      {
+        "pagePath": "pages/cart/cart",
+        "text": "购物车",
+        "iconPath": "/assets/tab-bar/购物车空.png",
+        "selectedIconPath": "/assets/tab-bar/购物车空 (红色).png"
+      },
+      {
+        "pagePath": "pages/profile/profile",
+        "text": "我的",
+        "iconPath": "/assets/tab-bar/我的（黑色）.png",
+        "selectedIconPath": "/assets/tab-bar/我的 (红色).png"
+      }
+    ]
+  },
+  "style": "v2",
+  "renderer": "skyline",
+  "rendererOptions": {
+    "skyline": {
+      "defaultDisplayBlock": true,
+      "defaultContentBox": true,
+      "tagNameStyleIsolation": "legacy",
+      "disableABTest": true,
+      "sdkVersionBegin": "3.0.0",
+      "sdkVersionEnd": "15.255.255"
+    }
+  },
+  "componentFramework": "glass-easel",
+  "sitemapLocation": "sitemap.json",
+  "lazyCodeLoading": "requiredComponents"
+}
