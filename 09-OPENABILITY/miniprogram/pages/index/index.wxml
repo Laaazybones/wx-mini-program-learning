@@ -1,0 +1,6 @@
+
+<view>
+  <button class="btn" open-type="chooseAvatar" bindchooseavatar="chooseAvatar">
+    <image class="avatar" src="{{ avatarUrl }}" mode=""/>
+  </button>
+</view>

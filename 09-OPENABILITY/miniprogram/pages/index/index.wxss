@@ -1,0 +1,24 @@
+/**index.wxss**/
+page {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+.scrollarea {
+  flex: 1;
+  overflow-y: hidden;
+}
+
+.btn {
+  background-color: transparent;
+}
+
+.btn::after {
+  border: none;
+}
+
+.avatar {
+  width: 200rpx;
+  height: 200rpx;
+  border-radius: 50%;
+}
