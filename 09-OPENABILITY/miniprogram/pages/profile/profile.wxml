@@ -1,2 +1,5 @@
-<!--pages/profile/profile.wxml-->
-<text>pages/profile/profile.wxml</text>
+<!-- pages/profile/profile.wxml
+<text>pages/profile/profile.wxml</text> -->
+
+<view class="line"></view>
+<button type="primary" plain open-type="contact">联系客服</button>
