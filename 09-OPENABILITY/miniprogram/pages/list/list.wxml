@@ -1,2 +1,22 @@
-<!--pages/list/list.wxml-->
-<text>pages/list/list.wxml</text>
+<!-- pages/list/list.wxml
+<text>pages/list/list.wxml</text> -->
+
+<view class="line"></view>
+
+<button
+  type="primary"
+  plain
+  open-type="getPhoneNumber"
+  bindgetphonenumber="getPhoneNumber"
+>快速验证组件</button>
+
+<view class="line"></view>
+
+<button
+  type="warn"
+  plain
+  open-type="getRealtimePhoneNumber"
+  bindgetrealtimephonenumber="getRealtimePhoneNumber"
+>实时验证组件</button>
+
+<view class="line"></view>
