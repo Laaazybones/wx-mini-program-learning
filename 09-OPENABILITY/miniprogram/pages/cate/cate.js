@@ -7,5 +7,14 @@ Page({
       path: 'pages/cate/cate',
       imageUrl: '../../assets/category/cate.png'
     }
+  },
+
+  // 监听到右上角 分享到朋友圈 按钮
+  onShareTimeline() {
+    return {
+      title: '帮我砍一刀~~',
+      query: 'id=1',
+      imageUrl: '../../assets/category/cate.png'
+    }
   }
 })
